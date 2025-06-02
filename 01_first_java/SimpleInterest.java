@@ -1,21 +1,21 @@
 //Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
-
 import java.util.Scanner;
 
-public class SimpleInterest {
+public class SimpleInterest{
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        
-        System.out.print("Enter Principal amount: ");
-        double Principal= s.nextDouble();
 
-        System.out.print("Enter Time in years: ");
-        int time = s.nextInt();
+        System.out.print("Enter the Principal: ");
+        double principal= s.nextInt();
 
-        System.out.print("Enter rate of interest: ");
-        float rate = s.nextFloat();
+        System.out.print("Enter the time: ");
+        double time = s.nextInt();
 
-        double Interest= (Principal * time * rate)/100;
-        System.out.println("Simple interest is: "+Interest);
+        System.out.print("Enter the Rate of Interest: ");
+        double roi = s.nextInt();
+
+        double Interest = (principal * time * roi)/100;
+        System.out.println("Simple interest : "+Interest);
+
     }
 }
