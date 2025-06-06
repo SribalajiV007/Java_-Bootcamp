@@ -14,13 +14,15 @@ public class largest {
         System.out.print("Enter a number: ");
         int c = s.nextInt();
 
-        if(a>b)
-          System.out.println(a+" is largest number");
-        else if(b>a)
-          System.out.println(b+" is largest number");
-        else if(c>a && c>b)
-          System.out.println(c+" is largest number.");
-        else
-          System.out.println("Invalid");
+        int max = a;
+
+        if(b > max){
+          max = b;
+        }
+        if(c > max){
+          max=c;
+        }
+
+        System.out.println("The largest number is: "+max);
     }
 }
