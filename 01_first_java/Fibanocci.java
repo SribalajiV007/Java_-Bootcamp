@@ -11,7 +11,7 @@ public class Fibanocci{
 
          System.out.println("Fibanocci series of "+n+" is ");
          for(int i=0;i<=n;i++){
-              System.out.println(first+" ");
+              System.out.print(first+" ");
               int next = first + second;
               first = second;
               second = next;
