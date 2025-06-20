@@ -9,23 +9,22 @@ public class Prime {
         System.out.print("Enter a number: ");
         int number = s.nextInt();
 
-        if(isPrime(number)){
-            System.out.println(number+" is a Prime Number");
+        if (isPrime(number)){
+            System.out.println(number+" is a Prime number");
         }else{
-            System.out.println(number+" is not a Prime Number");
+            System.out.println(number+" is not a Prime number");
         }
-        s.close();
     }
 
-    public static boolean isPrime(int num) {
-        if(num <= 1){
+     static boolean isPrime(int num) {
+        if(num<=1){
             return false;
         }
-        for(int i=2; i * i <= num;i++){
-            if(num %i ==0){
+        for(int i=2; i*i <= num; i++){
+            if(num % i==0){
                 return false;
             }
         }
-        return true;
+         return true;
     }
 }
