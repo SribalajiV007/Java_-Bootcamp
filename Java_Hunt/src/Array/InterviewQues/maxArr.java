@@ -16,7 +16,7 @@ public class maxArr {
          }
          return maxVal;
      }
-
+     // for max between range
     static int maxRange(int[] arr, int start, int end){
         int maxVal = arr[0];
         for (int i = start; i < end; i++) {
