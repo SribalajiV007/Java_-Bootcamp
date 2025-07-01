@@ -9,6 +9,7 @@ public class SwapArr {
 
          swap(arr,0,4);
          swap(arr,2,5);
+
         System.out.println("After swap: "+ Arrays.toString(arr));
     }
 
