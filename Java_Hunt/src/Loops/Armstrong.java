@@ -9,7 +9,7 @@ public class Armstrong {
 //        System.out.print("Enter a number: ");
 //        int number = s.nextInt();
 
-        for(int i = 100;i<=1000; i++) {
+        for(int i = 100;i<=100; i++) {
             if (isArmstrong(i)) {
                 System.out.print(i+" ");
             }
