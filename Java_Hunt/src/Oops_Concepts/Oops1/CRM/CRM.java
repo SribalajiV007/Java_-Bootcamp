@@ -15,18 +15,20 @@ public class CRM {
           }
       }
 
-      void findByPhone(String phone){
-          boolean found = false;
-          for(Customer c : customers){
-              if(c.phone.equals(c.phone)){
-                  System.out.println("Customer Found");
-                  c.display();
-                  found = true;
-              }
-              if(!found){
-                  System.out.println("Customer not found with phone "+phone);
-              }
+    void findByPhone(String phone) {
+        boolean found = false;
 
-          }
-      }
+        for (Customer c : customers) {
+            if (c.phone.equals(phone)) {
+                System.out.println("Customer Found:");
+                c.display();
+                found = true;
+                break;  // stop after first match
+            }
+        }
+
+        if (!found) {
+            System.out.println("Customer not found with phone: " + phone);
+        }
+    }
 }
