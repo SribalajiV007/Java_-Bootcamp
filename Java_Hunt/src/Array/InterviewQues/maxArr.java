@@ -4,7 +4,7 @@ public class maxArr {
     public static void main(String[] args) {
         int[] arr = {3, 23, 45, 34, 41, 7, 9};
         System.out.println(max(arr));
-        System.out.println(maxRange(arr,3,5));
+        System.out.println(maxRange(arr,2,1));
     }
 
      static int max(int[] arr){
