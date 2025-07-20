@@ -1,6 +1,4 @@
-package Inheritance.Level3;
-
-import java.sql.SQLOutput;
+package Object_Oriented_Prog.Inheritance.Level3;
 
 class Animal{
     public void makeSound(){

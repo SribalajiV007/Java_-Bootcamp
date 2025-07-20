@@ -1,4 +1,4 @@
-package Inheritance.Level1;
+package Object_Oriented_Prog.Inheritance.Level1;
 
 //Create 3 classes in hierarchy:
 //Animal: method void eat()

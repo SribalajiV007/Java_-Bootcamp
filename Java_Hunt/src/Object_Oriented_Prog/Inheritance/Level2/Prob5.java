@@ -1,4 +1,4 @@
-package Inheritance.Level2;
+package Object_Oriented_Prog.Inheritance.Level2;
 
 class Humann{
     int age;

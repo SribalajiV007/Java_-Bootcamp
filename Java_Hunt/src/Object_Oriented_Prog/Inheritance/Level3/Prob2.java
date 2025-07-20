@@ -1,4 +1,4 @@
-package Inheritance.Level3;
+package Object_Oriented_Prog.Inheritance.Level3;
 
 class Vehicle{
     String brand;

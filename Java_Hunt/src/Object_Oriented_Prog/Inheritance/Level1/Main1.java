@@ -1,4 +1,4 @@
-package Inheritance.Level1;
+package Object_Oriented_Prog.Inheritance.Level1;
 
 class Animal{
     void makeSound(){
