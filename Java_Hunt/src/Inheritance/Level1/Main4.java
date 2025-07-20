@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Level1;
 
 class Person{
     String name = "Sri balaji";
