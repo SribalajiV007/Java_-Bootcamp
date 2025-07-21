@@ -1,5 +1,7 @@
 package Object_Oriented_Prog.Polymorphism;
 
+// Compile time Polymorphism
+
 class Calculator{
     public void add(int  a, int b){
         System.out.println("Addition: "+(a+b));
