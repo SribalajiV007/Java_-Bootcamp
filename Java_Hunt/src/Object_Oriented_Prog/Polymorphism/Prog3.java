@@ -1,5 +1,7 @@
 package Object_Oriented_Prog.Polymorphism;
 
+//Array Objects adding polymorphism using upcasting
+
 class Employee{
     void CalculateSalary(){
         System.out.println("base salary: 15000");
